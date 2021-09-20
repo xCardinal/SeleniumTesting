@@ -15,7 +15,8 @@ namespace SeleniumPOMWalkthrough.lib.pages
         public IWebDriver SeleniumDriver { get; set; }
         public AP_HomePage AP_HomePage { get; set; }
         public AP_UserPage AP_UserPage { get; set; }
-        
+        public AP_LastPage AP_LastPage { get; set; }
+
         //Constructor for driver and config for the service
         public AP_Website(int pageLoadInSecs = 10, int implicitWaitInSecs = 10)
         {
@@ -25,6 +26,7 @@ namespace SeleniumPOMWalkthrough.lib.pages
             //Instantiate the PO with the selenium driver
             AP_HomePage = new AP_HomePage(SeleniumDriver);
             AP_UserPage = new AP_UserPage(SeleniumDriver);
+            AP_LastPage = new AP_LastPage(SeleniumDriver);
 
         }
         //Delete cookies

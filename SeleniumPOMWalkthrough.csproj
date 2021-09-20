@@ -58,9 +58,11 @@
     <Compile Include="lib\driver_config\SeleniumDriverConfig.cs" />
     <Compile Include="lib\pages\AP_HomePage.cs" />
     <Compile Include="lib\pages\AP_UserPage.cs" />
+    <Compile Include="lib\pages\AP_LastPage.cs" />
     <Compile Include="lib\pages\AP_Website.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="tests\AP_Signin_Tests - Copy.cs" />
+    <Compile Include="tests\AP_Signin_Tests.cs" />
+    <Compile Include="tests\AP_LastPage_Tests.cs" />
     <Compile Include="tests\AP_UserPortal_Tests.cs" />
   </ItemGroup>
   <ItemGroup>
